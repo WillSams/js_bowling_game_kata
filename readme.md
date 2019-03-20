@@ -39,7 +39,7 @@ Mocha is a test framework.  After install, it will sit in ~/.npm-global.
 ### Install [Chai][6] locally.
 Chai is an assertion library.  After install, it will sit in $PROJECTS/node_modules.
 
-  npm i --save-dev chai 
+    npm i --save-dev chai 
     
 ### Write your first test.  
 
