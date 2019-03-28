@@ -35,7 +35,7 @@ Before we write a single line of code, let's write our "specs".  What are we att
 ### Install [Mocha][5] globally. 
 Mocha is a test framework.  After install, it will sit in ~/.npm-global.
 
-    npm i -g mocha chai
+    npm i -g mocha
     
 ### Setup your project.  
     PROJECT=$HOME/Projects/jsdev/bowling_game
