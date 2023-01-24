@@ -1,1 +1,1 @@
-
+const { Game } = require('./game');
