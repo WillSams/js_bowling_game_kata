@@ -18,7 +18,7 @@ Before we write a single line of code, let's write our "specs".  What are we att
 
 ## The Kata
 
-I've created a simple shell script that should be able to be followed along on Linux, Mac, or Windows. The script can be read [here][3].
+I've created a simple shell script that can be followed along on Linux, Mac, or Windows. The script can be read [here][3].
 
 [1]: https://www.goodreads.com/book/show/84983.Agile_Principles_Patterns_and_Practices_in_C_
 [2]: http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
