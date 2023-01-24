@@ -1,6 +1,6 @@
 # Bowling Game - A JavaScript TDD Story
 
-The now classic bowling game kata by Bob Martin.  This is a great kata to practice TDD and BDD.  The kata is described in detail within the [Agile Principles, Patterns, and Practices in C#][1] book and the original PDF version can be found on [Bob Martin's web site][2].
+The now classic bowling game kata by Bob Martin.  This is a great kata to practice TDD and BDD.  The kata is described in detail within the [Agile Principles, Patterns, and Practices in C#][1] book and a slide deck can be found on [Bob Martin's web site][2].
 
 ## Specification
 
