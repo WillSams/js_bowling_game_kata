@@ -1,7 +1,7 @@
 module.exports = {
   Gamelib: () => {
     return {
-      Game: function() {
+      Game: () => {
 
         return {};
       }
