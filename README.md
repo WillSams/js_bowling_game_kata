@@ -53,7 +53,7 @@ npm i
 
 ## Testing
 
-The project includes BDD-style tests organized for improved readability and comprehension. These tests are segmented into individual files, a structure that simplifies the testing process and enhances accessibility. While individual preferences may vary, this is my chosen approach for managing tests in this project.
+The project includes BDD-style tests organized for improved readability and comprehension. While individual preferences may vary, this is my chosen approach for managing tests in this project.
 
 To run the tests, simply enter the following command in your terminal:
 
