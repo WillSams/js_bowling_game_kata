@@ -23,3 +23,46 @@ I've created a simple shell script that can be followed along on Linux, Mac, or 
 [1]: https://www.goodreads.com/book/show/84983.Agile_Principles_Patterns_and_Practices_in_C_
 [2]: http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
 [3]: ./docs/kata.sh
+
+**Table of Contents**:
+
+* [Prerequisites](#prerequisites)
+* [Getting Started](#getting-started)
+    - [Install Node.js Packages](#install-nodejs-packages)
+* [Testing](#testing)
+* [License](#license)
+
+## Prerequisites
+
+* [NodeJS](https://nodejs.org/en/) 
+* [nvm](https://github.com/nvm-sh/nvm) - Used to manage NodeJS versions.
+
+## Getting Started
+
+### Install Node.js Packages
+
+Execute the following within your terminal:
+
+```bash
+# To eliminate any issues, install/use the version listed in .nvmrc.  
+nvm use            
+
+# Install the package needed for testing, jest
+npm i  
+```
+
+## Testing
+
+The project includes BDD-style tests organized for improved readability and comprehension. These tests are segmented into individual files, a structure that simplifies the testing process and enhances accessibility. While individual preferences may vary, this is my chosen approach for managing tests in this project.
+
+To run the tests, simply enter the following command in your terminal:
+
+```bash
+npm run test
+```
+
+## License
+
+License information can be found [here](./LICENSE)
+
+
