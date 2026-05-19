@@ -1,6 +1,6 @@
 class Game {
   constructor() {
-    this.rolls = new Array(21);
+    this.rolls = new Array(21).fill(0);
     this.currentRoll = 0;
   }
 
@@ -26,20 +26,25 @@ class Game {
     return score;
   };
 
-  #isSpare = (frameIndex) =>
-    this.rolls[frameIndex] + this.rolls[frameIndex + 1] === 10;
+  #isSpare(frameIndex) {
+    return this.rolls[frameIndex] + this.rolls[frameIndex + 1] === 10;
+  }
 
-  #isStrike = (frameIndex) => this.rolls[frameIndex] === 10;
+  #isStrike(frameIndex) {
+    return this.rolls[frameIndex] === 10;
+  }
 
-  #sumOfBallsInFrame = (frameIndex) =>
-    this.rolls[frameIndex] + this.rolls[frameIndex + 1];
+  #sumOfBallsInFrame(frameIndex) {
+    return this.rolls[frameIndex] + this.rolls[frameIndex + 1];
+  }
 
-  #spareBonus = (frameIndex) => this.rolls[frameIndex + 2];
+  #spareBonus(frameIndex) {
+    return this.rolls[frameIndex + 2];
+  }
 
-  #strikeBonus = (frameIndex) =>
-    this.rolls[frameIndex + 1] + this.rolls[frameIndex + 2];
+  #strikeBonus(frameIndex) {
+    return this.rolls[frameIndex + 1] + this.rolls[frameIndex + 2];
+  }
 }
 
-module.exports = {
-  Game,
-};
+export { Game };

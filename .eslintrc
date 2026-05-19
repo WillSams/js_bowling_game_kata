@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:eslint-comments/recommended"
+  ],
+  "plugins": ["eslint-comments"],
+  "root": true,
+  "env": { "browser": true, "es2020": true },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "ignorePatterns": ["specs", ".eslintrc"],
+  "rules": {
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "_" }],
+    "no-empty-function": ["error", { "allow": ["methods", "arrowFunctions"] }],
+    "no-case-declarations": "off",
+    "no-console": "error",
+    "no-debugger": "error"
+  }
+}

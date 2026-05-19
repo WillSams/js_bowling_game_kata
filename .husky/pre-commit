@@ -1,6 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-./node_modules/.bin/prettier src/**/*.js --single-quote --trailing-comma es5 --write
-./node_modules/.bin/eslint src --fix
-git add .
+npm run format
+npm run lint
