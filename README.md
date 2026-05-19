@@ -63,6 +63,6 @@ npm run test
 
 ## License
 
-License information can be found [here](./LICENSE)
+License information can be found [here](./LICENSE.md)
 
 
